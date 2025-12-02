@@ -1,0 +1,7 @@
+
+f
+java:S1192\"PDefine a constant instead of duplicating this literal "resultdb.driver" 4 times.(ÅæΩÔ
+u
+java:S1450"ZRemove the "missionType" field and declare it as a local variable in the relevant methods.(‚˙å¶ˇˇˇˇˇ
+T
+java:S1155q">Use isEmpty() to check whether the collection is empty or not.(çêú€

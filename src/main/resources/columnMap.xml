@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<columnMap>
+    <src dbType="ORACLE">
+        <dest dbType = "STOREONE">
+            <columnType srcType="LONG" destType="CLOB" />
+            <columnType srcType="NCHAR" destType="VARCHAR2" />
+            <columnType srcType="CHAR" destType="VARCHAR2" />
+            <columnType srcType="NVARCHAR2" destType="VARCHAR2" />
+            <columnType srcType="NVARCHAR" destType="VARCHAR2" />
+            <columnType srcType="BINARY_FLOAT" destType="NUMBER" />
+            <columnType srcType="BINARY_DOUBLE" destType="NUMBER" />
+            <columnType srcType="INTEGER" destType="NUMBER" />
+        </dest>
+    </src>
+
+    <src dbType="GREENPLUM">
+        <dest dbType = "STOREONE">
+            <columnType srcType="LONG" destType="CLOB" />
+            <columnType srcType="NCHAR" destType="VARCHAR2" />
+            <columnType srcType="CHAR" destType="VARCHAR2" />
+            <columnType srcType="NVARCHAR2" destType="VARCHAR2" />
+            <columnType srcType="NVARCHAR" destType="VARCHAR2" />
+            <columnType srcType="BINARY_FLOAT" destType="NUMBER" />
+            <columnType srcType="BINARY_DOUBLE" destType="NUMBER" />
+            <columnType srcType="INTEGER" destType="NUMBER" />
+        </dest>
+    </src>
+
+    <!--<src dbType="oracle">-->
+        <!--<dest dbType = "STOREONE">-->
+
+        <!--</dest>-->
+    <!--</src>-->
+
+
+</columnMap>

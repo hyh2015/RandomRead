@@ -1,0 +1,19 @@
+--创建号码池表，可以用distinct出来的表rename
+create table tb_usernum_list(usernum varchar(32)) tablespace tbs_xxx;
+--创建查询表名表
+create table tb_table_list(tablename varchar(32)) tablespace tbs_xxx;
+--例如要测试查询tb_evt_2020，则需要insert表名到tb_table_list
+insert into tb_table_list values('tb_evt_2020');
+--创建查询记录表
+create table tb_test_record_sql1(
+thread_name varchar(100),
+missionid varchar(100),
+query_num varchar(100),
+return_time number,
+count_finish_time number,
+count number,
+record_time date
+)
+tablespace tbs_xxx;
+
+--修改配置 直接执行vim tableMigratio.jar，找到conf.properties，修改url等连接信息

@@ -1,0 +1,15 @@
+
+]
+java:S1192,"HDefine a constant instead of duplicating this literal "thread " 3 times.(·ÖÿJ
+…
+java:S1319"jThe type of "numberList" should be an interface such as "List" rather than the implementation "ArrayList".(¨ã»¿úÿÿÿÿ
+„
+java:S1319"iThe type of "tableList" should be an interface such as "List" rather than the implementation "ArrayList".(¨ã»¿úÿÿÿÿ
+P
+java:S1141'"5Extract this nested try block into a separate method.(Íºã øÿÿÿÿ
+P
+java:S1141*"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+]
+java:S1659("GDeclare "returnTime" and all following declarations on a separate line.(Ø°÷Â
+^
+java:S5361+"HReplace this call to "replaceAll()" by a call to the "replace()" method.(ß›‰†

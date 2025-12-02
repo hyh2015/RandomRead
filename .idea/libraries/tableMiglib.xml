@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="tableMiglib">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../tableMiglib" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/../tableMiglib" recursive="false" />
+  </library>
+</component>
