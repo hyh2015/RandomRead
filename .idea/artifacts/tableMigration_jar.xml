@@ -5,17 +5,18 @@
       <element id="archive" name="tableMigration.jar">
         <element id="module-output" name="tableMigration" />
       </element>
-      <element id="file-copy" path="$PROJECT_DIR$/../lib_tableMig/postgresql-42.7.5.jar" />
       <element id="file-copy" path="$PROJECT_DIR$/../lib_tableMig/mysql-connector-java-5.1.45.jar" />
       <element id="file-copy" path="$PROJECT_DIR$/../lib_tableMig/disruptor-3.3.4.jar" />
       <element id="file-copy" path="$PROJECT_DIR$/../lib_tableMig/log4j-api-2.11.0.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../lib_tableMig/postgresql-42.7.5.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../lib_tableMig/VastbaseG100_jdbc_2.9p_2023120616.jar" />
       <element id="file-copy" path="$PROJECT_DIR$/../lib_tableMig/slf4j-api-1.7.10.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../lib_tableMig/kingbase8-8.6.0.jar" />
       <element id="file-copy" path="$PROJECT_DIR$/../lib_tableMig/log4j-core-2.11.0.jar" />
       <element id="file-copy" path="$PROJECT_DIR$/../lib_tableMig/ojdbc7-12.1.0.2.0.jar" />
       <element id="file-copy" path="$PROJECT_DIR$/../lib_tableMig/hgjdbc-6.2.4.build11.jar" />
       <element id="file-copy" path="$PROJECT_DIR$/../lib_tableMig/log4j-1.2-api-2.11.0.jar" />
       <element id="file-copy" path="$PROJECT_DIR$/../lib_tableMig/log4j-slf4j-impl-2.11.0.jar" />
-      <element id="file-copy" path="$PROJECT_DIR$/../lib_tableMig/VastbaseG100_jdbc_2.9p_2023120616.jar" />
     </root>
   </artifact>
 </component>

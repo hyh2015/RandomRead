@@ -45,6 +45,8 @@ public class TestMission {
                 break;
             case "5":test5(threadNum, numberList, tableList);
                 break;
+            case "6":test6(threadNum, numberList, tableList);
+                break;
             default:test(threadNum, numberList, tableList);
         }
 
@@ -82,6 +84,13 @@ public class TestMission {
         for (int i = 0 ; i < threadNum ; i++){
             TestThread5 testThread5 = new TestThread5(""+i,numberList, tableList);
             this.dataTaskPool.execute(testThread5);
+        }
+    }
+
+    private void test6(int threadNum, ArrayList<String> numberList, ArrayList<String> tableList) {
+        for (int i = 0 ; i < threadNum ; i++){
+            TestThread6 testThread6 = new TestThread6(""+i,numberList, tableList);
+            this.dataTaskPool.execute(testThread6);
         }
     }
 
@@ -148,3 +157,4 @@ public class TestMission {
 
 
 }
+
