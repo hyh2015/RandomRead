@@ -1,2 +1,10 @@
 logs/*.log
 logs/
+
+# 编译输出：Maven 编译到 target/，IntelliJ 打包到 classes/artifacts/
+# 每次 Build 都会变动，不纳入版本管理。依赖 jar 见 lib/
+target/
+classes/
+
+# SonarLint 本地缓存
+.idea/sonarlint/
